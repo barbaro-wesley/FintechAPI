@@ -7,7 +7,7 @@ import {
 import { JwtService } from '@nestjs/jwt'
 import { ConfigService } from '@nestjs/config'
 import * as bcrypt from 'bcrypt'
-import { v4 as uuidv4 } from 'uuid'
+// import { v4 as uuidv4 } from 'uuid'
 import { UsersRepository } from '../users/users.repository'
 import { PrismaService } from '../../database/prisma.service'
 import { RegisterDto } from './dto/register.dto'
